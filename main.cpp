@@ -28,7 +28,7 @@ class inventory : public admin
     }
 }x[100], y[100];
 
-class create_menu
+class create_menu : public inventory
 {
     public:
     void display()
